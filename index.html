@@ -3,32 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Chweya Jnr | Senior Software Quality & Automation Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="blob-bg"></div>
+    
     <header>
-        <h1>Chweya Charles</h1>
-        <p>Senior QA Automation Engineer/SDET</p>
-        <p>I build test automation frameworks for products</p>
+        <div class="nav-container">
+            <span class="logo">CJ://qa-architect</span>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#frameworks">Architecture</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I build clean, responsive web applications and love working with modern technologies.</p>
-    </section>
+    <main class="container">
+        <section class="hero">
+            <div class="badge">🚀 5+ Years Engineering Excellence</div>
+            <h1>Ensuring Software Reliability at Scale.</h1>
+            <p class="hero-subtitle">Senior Software Test Engineer specializing in robust test automation frameworks, API reliability, continuous integration pipelines, and bulletproof software delivery.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn primary">Let's Connect</a>
+                <a href="#skills" class="btn secondary">Explore Tech Stack</a>
+            </div>
+        </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Project One</h3>
-            <p>A brief description of what this project does and the tools used to build it.</p>
-            <a href="https://github.com/your-username/project-one" target="_blank">View on GitHub</a>
-        </div>
-    </section>
+        <section id="about" class="card">
+            <h2>About The Engineer</h2>
+            <p>A seasoned quality engineering professional with over 5 years of hands-on industry experience spanning manual, automation, database, and API/web services testing. Deeply fluent in the Software Testing Life Cycle (STLC) and modern engineering processes, designing scalable test infrastructures that catch defects long before production.</p>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>Core Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Core</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL (MySQL, Oracle 10g)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Test Automation</h3>
+                    <ul>
+                        <li>Selenium (Python)</li>
+                        <li>Robot Framework</li>
+                        <li>Pytest & Page Object Model (POM)</li>
+                        <li>Data-Driven & Keyword-Driven Frameworks</li>
+                        <li>Cucumber (BDD)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>APIs & Services</h3>
+                    <ul>
+                        <li>REST API Testing</li>
+                        <li>Postman & Newman CLI</li>
+                        <li>Web Services Testing</li>
+                        <li>API & DB Automation</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & CI/CD</h3>
+                    <ul>
+                        <li>Jenkins CI/CD Pipelines</li>
+                        <li>Docker Containerization</li>
+                        <li>SDLC, STLC, ATLC Methodologies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="frameworks" class="card">
+            <h2>Architecture & Testing Methodologies</h2>
+            <div class="framework-grid">
+                <div class="framework-item">
+                    <h3>Page Object Model (POM)</h3>
+                    <p>Building maintainable, modular, and scalable UI test suites that decouple test scripts from page mechanics.</p>
+                </div>
+                <div class="framework-item">
+                    <h3>Behavior-Driven Development</h3>
+                    <p>Leveraging Cucumber and Gherkin syntax to bridge business requirements and technical test execution seamlessly.</p>
+                </div>
+                <div class="framework-item">
+                    <h3>Continuous Quality Integration</h3>
+                    <p>Embedding automated test runners into Jenkins and Docker containers to enable rapid, frictionless deployment feedback loops.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card contact-card">
+            <h2>Let's Build Reliable Systems Together</h2>
+            <p>Looking to supercharge your test automation or scale your quality infrastructure? Reach out directly.</p>
+            <a href="mailto:your-email@example.com" class="btn primary">Get In Touch</a>
+        </section>
+    </main>
 
     <footer>
-        <p>Contact: jane@example.com</p>
+        <p>&copy; 2026 Chweya Jnr. Built for high-performance software delivery.</p>
     </footer>
 </body>
 </html>
